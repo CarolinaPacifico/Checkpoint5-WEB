@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkpoint 5</title>
+
+  <!-- LINKS BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- LINK GOOGLE FONTS --- FAZER FONTE FUNCIONAR -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- TUDO PRECISA SER RESPONSIVO -->
+
+  <!-- Arrumar a posição das palavras e fazer os ícones funcionarem -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MatrixShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active">Coleção 2024</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Outlet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Prime</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-cart"></i> Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <i class="bi bi-person-circle"></i>
+            <a class="nav-link disabled" aria-disabled="true">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- colocar uma cor de fundo e posicionar os elementos -->
+  <div class="container mb-5">
+    <h1>Nova coleção 2024</h1>
+    <h2>20% OFF para a nova coleção</h2>
+    <button type="button" class="btn btn-dark">Conheça a coleção</button>
+    <img src="./images/produto-hero.jpg" alt="">
+  </div>
+
+  <!--falta usar padding, só n sei onde da pra usar  -->
+  <div class="colecao mw-90">
+    <div class="container text-center mb-5">
+      <h3 class="mb-4">Coleção 2024</h3>
+      <div class="row">
+        <div class="col sm-12">
+          <img class="img-fluid" src="./images/cat-img-1.jpg" alt="cadeira branca com 3 peças de roupa em cima">
+        </div>
+        <div class="col">
+          <img class="img-fluid mb-4" src="./images/cat-img-2.jpg" alt="tênis cinza com o símbolo da marca nike">
+          <img class="img-fluid" src="./images/cat-img-3.jpg" alt="relógio analógico de pulso marrom">
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./images/cat-img-4.jpg" alt="fone de ouvido do estilo headset na cor preta">
+        </div>
+      </div>
+    </div>
+
+    <!-- JÁ ESTÁ REPONSIVO, talvez precise colocar padding e margin em alguns lugares, pq o prof disse q é obrigatório -->
+    <div class="outlet mb-5">
+      <div class="container text-center">
+        <h3 class="mb-4">Outlet</h3>
+
+        <div class="row">
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-1.jpg" alt="fone de ouvido bluetooth branco">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-2.jpg" alt="tênis vermelho">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-3.jpg" alt="camiseta cinza pendurada em um cabide">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-4.jpg" alt="relógio analógico de pulso marrom">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-5.jpg" alt="relógio digital vermelho de pulso">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-6.jpg" alt="tênis verde escuro com detalhes em branco">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-7.jpg" alt="embalagem transparente de vidro de perfume">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+          <div class="col col-sm-12 col-md-6 col-lg-3">
+            <img class="img-fluid mb-3" src="./images/product-8.jpg" alt="relógio digital de pulso preto">
+            <button type="button" class="btn btn-light border-2 border-dark mb-5">Adicionar ao carrinho</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="prime">
+      <h3>Prime</h3>
+    </div>
+
+</body>
+
+</html>
